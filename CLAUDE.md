@@ -13,79 +13,55 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Vitor Moraes Macedo
+- **Location:** Novo Hamburgo, Rio Grande do Sul, Brasil (Disponibilidade Home Office / Remoto e Híbrido RS)
+- **Phone:** +55 (51) 99722-5501
+- **Email:** vitor.macedo.cs@outlook.com
+- **LinkedIn:** https://www.linkedin.com/in/o-vitormoraes
+- **CV language:** Português (com suporte a versões bilíngues em Inglês)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | Português | Nativo |
+  | Inglês | Intermediário / Limited Working (B1-B2) |
+  | Espanhol | Básico (Elementary) |
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Contratado PJ / Aberto a novas posições
+- **LinkedIn headline:** "Excelência Operacional | T&D & Monitoria | Customer Success | Processos & Inteligência Artificial (IA)"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **CST em Marketing** (2018-2021) - Estácio
+- **Formação em Growth e Marketing** (2025) - Escola DNC
+- **CST em Gastronomia** (2012-2015) - Unisinos
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Gerente de Comunidade | Customer Success & Enablement** (mar/2026 - Presente) - **Easybuilder.com.br** (Porto Alegre / Remoto, RS)
+  - Reformulação da trilha pedagógica e mapeamento de aulas dos 2 produtos centrais.
+  - Gravação e edição de +30 aulas didáticas/tutoriais para resolver dores operacionais dos usuários.
+  - Condução de +20 monitorias e implantação de plantões semanais de suporte ao vivo no Google Meet.
+  - Elaboração de +5 POPs/SOPs para processos de cancelamento, renovação e suporte; reversão de churn/chargeback com >75% de êxito.
+  - Gestão de beta testers com o time de Tech para o lançamento da v2.0 com documentação técnica e relatórios de KPIs.
+- **Gerente de Projetos | Customer Success** (fev/2025 - mai/2026) - **Markmind Assessorias**
+  - Funis de vendas para 4 infoprodutos (+15% conversão), copys de VSL e testes A/B.
+- **Gerente de Projetos Estratégicos & CS (Consultoria)** (dez/2023 - mai/2026) - **Autônomo**
+  - Automações de processos e funis no HubSpot/ManyChat, gestão ágil (Scrum/Kanban) e treinamento de equipes.
+- **Account Manager Large & Key Account** (set/2025 - nov/2025) - **Saipos | Sistema para Restaurante**
+  - Diagnóstico operacional mapeando +10 gargalos em restaurantes e atendimento a franquias com 15 a 50+ unidades.
+- **Account Manager | Product Owner** (fev/2025 - abr/2025) - **Escola DNC**
+  - Liderança de time de 5 pessoas, governança de OKRs, benchmarks e análises SWOT.
+- **Trajetória de 5 anos e 3 meses** (nov/2018 - jan/2024) - **Appmax**
+  - *CSM & Key Account Manager:* Gestão high-touch de 20-30 Key Accounts, redução de churn e escala de faturamento de cliente de R$ 100k para R$ 1M/mês.
+  - *Analista de CS & Suporte Técnico:* Reestruturação de tickets no Intercom, redução do SLA de 2 dias para 4 horas (zerou backlog de 100+ chamados), aumento de CSAT/NPS.
+  - *Supervisor de Vendas:* Liderança de 30 vendedores (+40% em performance, 30 feedbacks/mês).
+  - *Consultor de Vendas Internas:* Faturamento de R$ 2,2M em vendas consultivas.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
-
-### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
-
-### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
-
-### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
-
-### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
-
-### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- **Inteligência Artificial (IA) & Automação:** Aplicação contínua de IA generativa (ChatGPT, Claude, Gemini) na roteirização de treinamentos, síntese de POPs e manuais técnicos, estruturação de materiais didáticos e automação de fluxos operacionais.
+- **Capacitação & T&D:** Treinamento de equipes, design de trilhas pedagógicas, produção de videoaulas (+30 aulas), monitorias ao vivo, plantões de dúvidas.
+- **Excelência Operacional & Qualidade:** Elaboração de POPs/SOPs, monitoria de interações/chamados, gestão de SLA, CSAT e NPS, melhoria contínua.
+- **Prevenção a Fraude & Chargeback:** Mediação de conflitos, retenção de cancelamentos (>75% de sucesso), vivência prática em checkout e antifraude de e-commerce/fintech.
+- **Ferramentas:** ClickUp, Intercom, HubSpot, Google Meet, Trello, Figma, Meta Ads, ManyChat, Hotmart Club, Excel/Google Sheets.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

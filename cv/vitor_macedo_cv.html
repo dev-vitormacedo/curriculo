@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículo - Vitor Moraes Macedo</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 8mm 10mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 8.8pt;
+      line-height: 1.28;
+      color: #1e293b;
+      background-color: #ffffff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .container {
+      width: 100%;
+      max-width: 190mm;
+      margin: 0 auto;
+    }
+    /* Header */
+    header {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 5px;
+      margin-bottom: 6px;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    h1 {
+      font-size: 19pt;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+    }
+    .headline {
+      font-size: 9.8pt;
+      font-weight: 700;
+      color: #2563eb;
+      margin-top: 1px;
+    }
+    .contact-bar {
+      margin-top: 3px;
+      font-size: 8.2pt;
+      color: #475569;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .contact-bar a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 6px;
+    }
+    .section-title {
+      font-size: 8.8pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #0f172a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 1.5px;
+      margin-bottom: 3.5px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .section-title::before {
+      content: "";
+      display: inline-block;
+      width: 3.5px;
+      height: 9.5px;
+      background-color: #2563eb;
+      border-radius: 1px;
+    }
+
+    /* Text */
+    p.summary {
+      font-size: 8.4pt;
+      color: #334155;
+      text-align: justify;
+      margin-bottom: 3px;
+    }
+
+    /* Competencies Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px 12px;
+      font-size: 8.2pt;
+      background-color: #f8fafc;
+      padding: 4px 6px;
+      border-radius: 3px;
+      border: 1px solid #e2e8f0;
+    }
+    .skill-item strong {
+      color: #0f172a;
+    }
+
+    /* Experience */
+    .job {
+      margin-bottom: 4.5px;
+    }
+    .job:last-child {
+      margin-bottom: 0;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1.5px;
+    }
+    .job-title-role {
+      font-size: 8.8pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .job-company {
+      font-weight: 600;
+      color: #2563eb;
+    }
+    .job-date {
+      font-size: 8pt;
+      font-weight: 600;
+      color: #64748b;
+      white-space: nowrap;
+    }
+    ul.job-bullets {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul.job-bullets li {
+      position: relative;
+      padding-left: 11px;
+      margin-bottom: 1.5px;
+      font-size: 8.3pt;
+      color: #334155;
+      text-align: justify;
+    }
+    ul.job-bullets li::before {
+      content: "•";
+      position: absolute;
+      left: 2px;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    /* Education & Info Grid */
+    .bottom-grid {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      gap: 12px;
+    }
+    .edu-item {
+      font-size: 8.2pt;
+      margin-bottom: 2px;
+    }
+    .edu-item strong {
+      color: #0f172a;
+    }
+    .edu-inst {
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>Vitor Moraes Macedo</h1>
+      </div>
+      <div class="headline">Analista de Excelência Operacional | T&D, Monitoria de Qualidade e Sucesso do Cliente</div>
+      <div class="contact-bar">
+        <span>📍 Novo Hamburgo, RS (Home Office / Remoto)</span>
+        <span>📱 (51) 98628-8741</span>
+        <span>✉️ <a href="mailto:vitor.macedo.cs@outlook.com">vitor.macedo.cs@outlook.com</a></span>
+        <span>🔗 <a href="https://www.linkedin.com/in/o-vitormoraes">linkedin.com/in/o-vitormoraes</a></span>
+      </div>
+    </header>
+
+    <!-- RESUMO -->
+    <section>
+      <div class="section-title">Resumo Profissional</div>
+      <p class="summary">
+        Profissional com mais de 18 anos de experiência e sólida trajetória recente focada em <strong>Excelência Operacional, Treinamento & Desenvolvimento (T&D), Monitoria de Qualidade</strong> e <strong>Sucesso do Cliente</strong>. Atuação com abordagem orientada a dados, uso contínuo de <strong>Inteligência Artificial (IA)</strong> para criação ágil de capacitações e automações, padronização de POPs, reestruturação de fluxos operacionais (redução de 50% de SLA) e mediação de churn/chargeback com mais de 75% de reversão em ambientes SaaS, EdTech e Fintech.
+      </p>
+    </section>
+
+    <!-- COMPETÊNCIAS -->
+    <section>
+      <div class="section-title">Competências Principais & Tecnologias</div>
+      <div class="skills-grid">
+        <div class="skill-item"><strong>Excelência Operacional & Qualidade:</strong> Mapeamento de processos, POPs/SOPs, redução de SLA, CSAT/NPS, auditoria de chamados e melhoria contínua.</div>
+        <div class="skill-item"><strong>Treinamento & Desenvolvimento (T&D):</strong> Estruturação de trilhas pedagógicas, roteirização com IA, +30 videoaulas didáticas, +20 monitorias ao vivo e bootcamps.</div>
+        <div class="skill-item"><strong>Prevenção a Fraude & Risco:</strong> Mediação de cancelamento e chargeback (>75% de reversão), regras de checkout e gateway de pagamentos.</div>
+        <div class="skill-item"><strong>Inteligência Artificial (IA) & Ferramentas:</strong> Aplicação diária de IA generativa (ChatGPT, Claude, Gemini) em POPs e roteiros; ClickUp, Intercom, HubSpot, Figma, Scrum/Kanban.</div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section>
+      <div class="section-title">Experiência Profissional</div>
+
+      <!-- Easybuilder - Cargo 2 -->
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title-role">Analista de Excelência Operacional e Monitoria | Comunidade — <span class="job-company">Easybuilder.com.br</span></span>
+          <span class="job-date">07/2026 – Presente</span>
+        </div>
+        <ul class="job-bullets">
+          <li><strong>Gestão de Projetos e Treinamentos:</strong> Coordenei o <em>Bootcamp Setup Builder</em> (180+ alunos, 6 aulas ao vivo), gerando relatórios de engajamento e participação para o CEO; assumi a gestão das mentorias mensais, coordenando palestrantes e alinhamento entre setores.</li>
+          <li><strong>Monitorias e Qualidade de Atendimento:</strong> Implantei plantões semanais e realizei mais de 20 monitorias ao vivo via Google Meet, fornecendo suporte síncrono humanizado e resolvendo gargalos críticos que extrapolavam o atendimento assíncrono via WhatsApp.</li>
+          <li><strong>Padronização de Processos (POPs):</strong> Elaborei mais de 5 POPs operacionais com auxílio de IA (cancelamento, renovação e suporte), padronizando a qualidade das entregas da equipe e integrando fluxos recorrentes com mais de 400 tasks gerenciadas no ClickUp.</li>
+          <li><strong>Mitigação de Riscos e Chargeback:</strong> Atuei diretamente na mediação de tentativas de cancelamento e chargeback, obtendo êxito na reversão e retenção em mais de 75% dos casos.</li>
+          <li><strong>Parceria Estratégica com Tech:</strong> Trabalhei junto à equipe de TI na ferramenta v2.0 (beta testers, 4 versões de manuais técnicos e dashboards de dados) e propus mais de 50 melhorias contínuas validadas.</li>
+        </ul>
+      </div>
+
+      <!-- Easybuilder - Cargo 1 -->
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title-role">Analista de Treinamento e Desenvolvimento (T&D) | CS — <span class="job-company">Easybuilder.com.br</span></span>
+          <span class="job-date">03/2026 – 07/2026</span>
+        </div>
+        <ul class="job-bullets">
+          <li><strong>Arquitetura de Conteúdo e Aulas:</strong> Mapeei e reestruturei do zero a grade pedagógica dos 2 produtos principais, integrando ferramentas de IA para roteirização didática ágil, gravando e editando mais de 30 videoaulas com foco em sanar as maiores dúvidas operacionais do suporte.</li>
+          <li><strong>Suporte Educacional e Engajamento:</strong> Realizei atendimento a mais de 100 alunos com NPS superior a 80%, estruturei módulos na Hotmart Club e liderei campanha de desafio com 112 participantes e +300% de crescimento orgânico.</li>
+        </ul>
+      </div>
+
+      <!-- Appmax -->
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title-role">Trajetória em Customer Success, Operações e Vendas — <span class="job-company">Appmax</span></span>
+          <span class="job-date">11/2018 – 01/2024 (5 anos e 3 meses)</span>
+        </div>
+        <ul class="job-bullets">
+          <li><strong>Eficiência Operacional & SLA:</strong> Reestruturei o fluxo de chamados no Intercom entre Vendas, CS e Backoffice, reduzindo o tempo de resolução de 2 dias para 4 horas (redução de 50% de SLA) e zerando backlog de mais de 100 tickets.</li>
+          <li><strong>Key Account Management & Retenção:</strong> Gerenciei carteira com 100+ clientes e 20 a 30 Key Accounts em modelo high-touch com QBRs, contribuindo para redução de 20% no churn, elevação de NPS/CSAT e escala de faturamento de cliente de R$ 100k para R$ 1M/mês.</li>
+          <li><strong>Liderança & Capacitação:</strong> Supervisionei e capacitei equipe de 30 vendedores (+40% de performance, 30 feedbacks/mês). Faturamento histórico de R$ 2,2M em vendas consultivas.</li>
+        </ul>
+      </div>
+
+      <!-- DNC & Saipos -->
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title-role">Projetos Ágeis & Key Account Management — <span class="job-company">Escola DNC & Saipos</span></span>
+          <span class="job-date">2025</span>
+        </div>
+        <ul class="job-bullets">
+          <li><strong>Saipos (Account Manager Key Account):</strong> Conduzi diagnósticos operacionais mapeando +10 gargalos em processos de clientes e atuei em projeto estratégico com iFood para grandes franquias (15 a 50+ unidades).</li>
+          <li><strong>Escola DNC (Account Manager | Product Owner):</strong> Liderei equipe de 5 pessoas na estruturação de processos de aquisição e projetos com governança de OKRs, benchmarks e testes A/B.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO E IDIOMAS -->
+    <section>
+      <div class="bottom-grid">
+        <div>
+          <div class="section-title">Formação Acadêmica & Certificações</div>
+          <div class="edu-item"><strong>CST em Marketing</strong> — <span class="edu-inst">Estácio (2018 – 2021)</span></div>
+          <div class="edu-item"><strong>Especialização em Growth & Métricas</strong> — <span class="edu-inst">Escola DNC (2025)</span></div>
+          <div class="edu-item"><strong>CST em Gastronomia</strong> — <span class="edu-inst">Unisinos (2012 – 2015)</span></div>
+        </div>
+        <div>
+          <div class="section-title">Idiomas</div>
+          <div class="edu-item"><strong>Português:</strong> Nativo</div>
+          <div class="edu-item"><strong>Inglês:</strong> Intermediário (Leitura técnica, documentação e escrita)</div>
+          <div class="edu-item"><strong>Espanhol:</strong> Básico</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
